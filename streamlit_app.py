@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report
 
 st.set_page_config(layout="wide")
 
-st.title("📉 Churn Analyse & Vorhersage")
+st.title("Absprungs-Raten Analyse & Vorhersage")
 
 # 📁 Datei-Upload
 uploaded_file = st.file_uploader("CSV-Datei mit Kundendaten hochladen", type=["csv"])
